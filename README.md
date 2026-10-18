@@ -2,17 +2,17 @@
 # NewsBot Intelligence System: End-to-End NLP Pipeline
 
 ## Project Overview
-The NewsBot Intelligence System is an automated media monitoring and text analytics pipeline designed to ingest unstructured news articles and transform them into structured business insights[cite: 1, 2]. Built entirely in Google Colab using free-tier resources, the system implements text preprocessing, multi-class classification, named entity recognition (NER), part-of-speech (POS) analysis, and sentiment evaluation across a 2,000-article corpus[cite: 3, 13].
+The NewsBot Intelligence System is an automated media monitoring and text analytics pipeline designed to ingest unstructured news articles and transform them into structured business insights. Built entirely in Google Colab using free-tier resources, the system implements text preprocessing, multi-class classification, named entity recognition (NER), part-of-speech (POS) analysis, and sentiment evaluation across a 2,000-article corpus.
 
 ## Architecture & Module Integration
-* **Module 1: Real-World NLP Context:** Business case and architecture design for automated competitive intelligence and media monitoring[cite: 1, 2].
+* **Module 1: Real-World NLP Context:** Business case and architecture design for automated competitive intelligence and media monitoring.
 * **Module 2: Preprocessing Pipeline:** Text normalization (regex cleaning, lowercasing, HTML/URL removal), tokenization, stop word filtering, and lemmatization with spaCy.
-* **Module 3: TF-IDF Extraction & Feature Analysis:** Parameter-optimized unigram/bigram vectorization, chi-squared category correlation, and mean TF-IDF distribution mapping[cite: 1, 16].
-* **Module 4: POS Pattern Analysis:** Grammatical tagging to evaluate stylistic patterns and frequency distribution of nouns, verbs, adjectives, and adverbs across news domains[cite: 1, 16].
-* **Module 5: Syntax Parsing & Semantic Extraction:** spaCy dependency parsing tracking structural subjects (`nsubj`, `nsubjpass`) and objects (`dobj`, `pobj`)[cite: 1, 16].
+* **Module 3: TF-IDF Extraction & Feature Analysis:** Parameter-optimized unigram/bigram vectorization, chi-squared category correlation, and mean TF-IDF distribution mapping.
+* **Module 4: POS Pattern Analysis:** Grammatical tagging to evaluate stylistic patterns and frequency distribution of nouns, verbs, adjectives, and adverbs across news domains.
+* **Module 5: Syntax Parsing & Semantic Extraction:** spaCy dependency parsing tracking structural subjects (`nsubj`, `nsubjpass`) and objects (`dobj`, `pobj`).
 * **Module 6: Sentiment & Emotion Analysis:** Article-level compound scoring via NLTK VADER and tone classification[cite: 1, 16].
-* **Module 7: Multi-Class Text Classification:** Implementation, evaluation, and comparative benchmarking of Multinomial Naive Bayes, Logistic Regression, and Random Forest models[cite: 1, 16].
-* **Module 8: Named Entity Recognition:** Entity extraction targeting `PERSON`, `ORG`, `GPE`, `DATE`, and `MONEY` tags with cross-category aggregation[cite: 1, 16].
+* **Module 7: Multi-Class Text Classification:** Implementation, evaluation, and comparative benchmarking of Multinomial Naive Bayes, Logistic Regression, and Random Forest models.
+* **Module 8: Named Entity Recognition:** Entity extraction targeting `PERSON`, `ORG`, `GPE`, `DATE`, and `MONEY` tags with cross-category aggregation.
 
 ## Key Results
 * **Best Performing Model:** Logistic Regression achieved highest overall accuracy (70.0%), narrowly outperforming Naive Bayes (69.25%) and Random Forest (68.75%).
@@ -21,4 +21,4 @@ The NewsBot Intelligence System is an automated media monitoring and text analyt
 
 ## Individual Contributions & Ownership
 * **Developer:** Jonathan Aldana
-* **Scope of Work:** Sole author and implementer across all 8 modules—handled Kaggle dataset acquisition/merging, Google Colab environment engineering, pipeline scripting, visual analytics generation, and documentation[cite: 16, 21].
+* **Scope of Work:** Sole author and implementer across all 8 modules—handled Kaggle dataset acquisition/merging, Google Colab environment engineering, pipeline scripting, visual analytics generation, and documentation.
